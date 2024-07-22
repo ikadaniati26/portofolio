@@ -1,0 +1,157 @@
+body {
+  background-color: #f8f8f8;
+}
+
+.container {
+  max-width: inherit;
+  margin: 0px auto;
+  padding: 0px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container .profile-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #003366;
+  color: #fff;
+  padding: 40px;
+  width: 85%;
+  height: 250px;
+  position: relative;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  z-index: 1;
+}
+
+.container .profile-header .sisi {
+  width: 230px;
+  height: 230px;
+  position: absolute;
+  top: 50%;
+  left: 1%;
+  -webkit-transform: translate(-50%, -10%);
+          transform: translate(-50%, -10%);
+  border-radius: 100%;
+  border: 50px solid #fad11b;
+}
+
+.container .profile-header img {
+  width: 210px;
+  height: 210px;
+  position: absolute;
+  top: 30%;
+  left: 1%;
+  -webkit-transform: translate(-50%, -10%);
+          transform: translate(-50%, -10%);
+  border-radius: 100%;
+  z-index: 2;
+}
+
+.container .profile-header h1 {
+  font-size: 40px;
+  margin: 20px;
+  margin-left: 300px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.container .profile-header p {
+  margin: 20px;
+  font-size: 24px;
+  margin-left: 300px;
+}
+
+.container .profile-header .pernik {
+  margin-left: 200px;
+  width: 1000px;
+  height: 25px;
+  background-color: #fad11b;
+  position: absolute;
+  margin-top: 250px;
+}
+
+.container .profile-content {
+  margin-top: 80px;
+  position: relative;
+  text-align: left;
+  padding-left: 250px;
+}
+
+.container .profile-content h5 {
+  font-weight: bold;
+  color: #003366;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 2px;
+}
+
+.container .profile-content p {
+  color: black;
+  font-size: medium;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container .profile-content .pernak {
+  margin-top: 20px;
+  width: 27px;
+  height: 490px;
+  background-color: #003366;
+  position: absolute;
+  margin-right: 98%;
+}
+
+.container .profile-content .contact-info {
+  font-size: 15px;
+}
+
+.container .profile-content .circle {
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+  background-color: #fad11b;
+  position: absolute;
+  margin-right: 620px;
+}
+
+.container .profile-content .line {
+  width: 4px;
+  height: 50px;
+  background-color: #003366;
+  position: absolute;
+  margin-right: 623px;
+  margin-top: 15px;
+}
+
+.container .profile-content h6 {
+  color: #003366;
+  font-weight: bold;
+  margin-left: 30px;
+}
+
+.container .profile-content p {
+  margin-left: 30px;
+}
+
+.container .profile-content .circlep {
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+  background-color: #fad11b;
+  position: absolute;
+  margin-right: 435px;
+}
+
+.container .profile-content .linep {
+  width: 4px;
+  height: 50px;
+  background-color: #003366;
+  position: absolute;
+  margin-right: 437px;
+  margin-top: 15px;
+}
+/*# sourceMappingURL=main.css.map */
